@@ -33,7 +33,9 @@ organized? How would branches help?
 	help us to organize our commit structure and keep it more readable.
 	
 How do the diagrams help you visualize the branch structure?
-
+	The diagrams provide a clear overview about the reachability of commits and 
+	how branches are organized in the respective git repository.
+	
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
