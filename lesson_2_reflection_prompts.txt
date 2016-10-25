@@ -38,6 +38,12 @@ How do the diagrams help you visualize the branch structure?
 	
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-
+	After the merge, the master branch contains all the commits from the coins 
+	branch in addition to the commits that were part of the master branch
+	before. The diagram clearly illustrates that a new commit is created for the
+	merge operation and that this commit has multiple parent commits. After the
+	merge, the label of the branch that has been merged into another branch may
+	be deleted since its commits are now part of the other branch.
+	
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
