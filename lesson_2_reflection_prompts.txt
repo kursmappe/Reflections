@@ -24,7 +24,14 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-
+	Typical situations where branches are useful are experimental changes like
+	trying out a new feature. By creating a branch, the main "line" of commits
+	is not affected by the experimental changes. If the new changes to do working
+	out as expected, the branch can be deleted and we can continue working on the
+	master branch as if nothing happened. If the changes work well, we can merge
+	the branch with our master branch to include the new changes there. Branches
+	help us to organize our commit structure and keep it more readable.
+	
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
