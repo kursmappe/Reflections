@@ -47,3 +47,14 @@ the diagram the way we do?
 	
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	One advantage of automatic merging is obviously the reduced effort for the 
+	user since the merge operation is done automatically. Git only uses automatic
+	merging when it is considered safe, i.e. when a file has not been changed 
+	differently in the same place by the involved branches.
+	Manual merging allows the user to decide which changes should be applied to 
+	the files in the merge commit. If a file has been changed in multiple branches,
+	the user may incorporate all changes in the file and then do the merge. This way,
+	the user can ensure that no bugs or other errors are introduced by git when
+	automatically merging the file. However, it requires interaction and analysis
+	by the user which can be tedious if it is required often or if the changes are
+	extensive.
