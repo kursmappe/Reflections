@@ -1,15 +1,18 @@
 How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
-    We know that the bug was not there in the previous version so it must be 
-	present in one of the differences between the two files. The lines that
-	changed between the two versions are way less than the whole file.
+    We know that the bug has not been there in the previous version so it must 
+	be introduced by one of the differences between the two files. The number 
+	of lines that changed between the two versions are way less than the whole 
+	file.
 
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
     You do not waste time with saving the same file over and over again under
-	different names.
+	different names. Additionally, you do not resitate to make any improving
+	changes to the code without any fear to break anything because you can go
+	back to any version of a file.
 
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
@@ -20,6 +23,7 @@ docs does?
 	+ Every commit is meaningful (in your opinion)
 	- You need to know and remember when to commit your files. If you forget to
 	  commit, you will bybass the advantages of version control
+	- The concept of a "meaningful" commit might differ from person to person
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
@@ -28,8 +32,8 @@ files in one commit, while others, like Google Docs, treat each file separately?
 	For programming tasks, it is mandatory to be able to commit multiple files 
 	in one commit to reflect that a logical change to the program needed changes
 	in multiple files. However, if your files are independent from each other, it
-	is easier to commit to commit each files separately since the software can 
-	commit automatically in this case.
+	is easier to commit each file separately since the software can commit 
+	automatically in this case.
 
 How can you use the commands git log and git diff to view the history of files?
 
