@@ -46,3 +46,22 @@ locally?
 	back online you can push your changes to the remote by transfering only the 
 	changes to the repository in compared to the last known state of the remote 
 	(which should not be much data).
+	
+	
+	
+How would you collaborate without using Git or GitHub? What would be easier, and
+what would be harder?
+
+	+ You would not need to understand the concepts of Git and GitHub
+	+ You would not need to commit your changes manually
+	- You will loose all adantages that come along with a version control system
+	  like Git
+	- It might be very difficult to collaborate with other people on the same 
+	  project, especially when multiple people perform changes simultaniously
+	- It might be much more difficult to find errors in your project since you
+	  cannot use the commit history that shows all logical changes to the project
+	  in the order they have been made
+	- Working offline would be more difficult since you need to merge every file
+	  carefully when you are back online
+	- Doing experimental work would probably require you to make a copy of the
+	  whole project to prevent you from breaking the working project (no branches)
