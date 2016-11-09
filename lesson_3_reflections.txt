@@ -65,3 +65,17 @@ what would be harder?
 	  carefully when you are back online
 	- Doing experimental work would probably require you to make a copy of the
 	  whole project to prevent you from breaking the working project (no branches)
+
+
+
+When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+
+	If the changes you are going to make may require a long time or if you do not
+	have permission to change the master branch on the GitHub repository, you may
+	want to work in a separate branch.
+	+ You dont mess up your master branch with commits that do not work well. By
+	  implementing the change in a separate branch, you can ensure that your 
+	  changes work well before you commit them to the master branch
+	- It is more cumbersome to stay up-to-date with changes that others making
+	  while you are working in your separate branch
