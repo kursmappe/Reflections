@@ -36,3 +36,13 @@ one instead of another?
 	users so that a copy of the repository is created in your GitHub account. This
 	is useful if you want to modify an existing project but you don't have the 
 	permission to modify the existing git repository of the other user.
+	
+	
+	
+What is the benefit of having a copy of the last known state of the remote stored
+locally?
+
+	You can work offline with the last known state of the remote and when you are 
+	back online you can push your changes to the remote by transfering only the 
+	changes to the repository in compared to the last known state of the remote 
+	(which should not be much data).
