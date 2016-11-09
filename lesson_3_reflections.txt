@@ -1,11 +1,38 @@
-When would you want to create a remote repository rather than keeping all your work local?
-    I would prefer a remote repository if I want to share the work with other people 
-    and/or collaborate with them. If I use to work on different computers, it could also 
-    be a good idea to create a remote repository.
+When would you want to create a remote repository rather than keeping all your 
+work local?
+    
+	I would prefer a remote repository if I want to share the work with other 
+	people and/or collaborate with them. If I use to work on different computers,
+	it could also be a good idea to create a remote repository.
 
-Why might you want to always pull changes manually rather than having Git automatically
-stay up-to-date with your remote repository?
-	If we are working on something, we might want to finish our current work before we 
-	sync with the remote repository again. Furthermore, you might want to keep working in
-	a different direction than the remote repository so you don't want any of the new 
-	changes to the code in the remote repository in your local code.
+
+	
+Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+
+	If we are working on something, we might want to finish our current work 
+	before we sync with the remote repository again. Furthermore, you might want
+	to keep working in a different direction than the remote repository so you 
+	don't want any of the new changes to the code in the remote repository in
+	your local code.
+
+	
+	
+Describe the differences between forks, clones, and branches. When would you use 
+one instead of another?
+
+	A git branch is a concept that enables different lines of development. It
+	creates a fork in the commit history of the project and allows you to better 
+	structure your project by creating branches for every independent task that
+	is performed on the repository (e.g. developing a new feature or fixing a 
+	bug). A branch may be merged into another branch (e.g. when the task is done),
+	completely discarded (e.g. when a feature does not work or is dropped) or
+	exist along with other branches in the repository.
+	A git clone is a complete copy of a git repository including all files and 
+	their history. A clone can be used to imort an existing git repository to 
+	another computer. You can also create a clone of a git repository on the same 
+	computer.
+	A fork is a concept of GitHub. You can fork git repositories of other GitHub 
+	users so that a copy of the repository is created in your GitHub account. This
+	is useful if you want to modify an existing project but you don't have the 
+	permission to modify the existing git repository of the other user.
